@@ -1,0 +1,22 @@
+[
+  {
+    "dataset": "psi",
+    "json_sha256": "5a4853a2a6eff914c1a1b31ac2f0bfbf55327070290de428525bca5d5c8db41f",
+    "source_url": "https://academic.oup.com/bioinformatics/article/38/4/941/6444984;https://github.com/aikium-public/aiki-sol;https://pmc.ncbi.nlm.nih.gov/articles/PMC11343611/"
+  },
+  {
+    "dataset": "garcia",
+    "json_sha256": "929ddbce8ab1dcf9bae47766b02befff0e2b5ba1ff2f25308324f884d12251d9",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12817478/"
+  },
+  {
+    "dataset": "nesg",
+    "json_sha256": "05bec2b7c21d1d2ebc8f23e173f7da13ad6815ecf89742fe3df4d478d99ea110",
+    "source_url": "https://academic.oup.com/bioinformatics/article/38/4/941/6444984"
+  },
+  {
+    "dataset": "esol",
+    "json_sha256": "a9ea3718c84cb33a39b6ee98a2016901f08af6a17e3232b16e023734d2eb7af3",
+    "source_url": "https://dbarchive.biosciencedbc.jp/data/esol/LATEST/README_e.html"
+  }
+]
