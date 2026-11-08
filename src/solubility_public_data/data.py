@@ -35,7 +35,7 @@ def read_records(path, training=False):
         if training:
             if r.get('role') != 'train' or r['insoluble'] is None:
                 raise ValueError('Training requires role=train and binary labels; external records prohibited')
-            if not r.get('group_id') or pd.isna(r['group_id']):
+            if r.get('group_id') is None or r['group_id'] == '' or pd.isna(r['group_id']):
                 raise ValueError('Training requires sequence/scaffold family group_id')
     if training and (len({r['sequence'] for r in records}) != len(records) or {r['insoluble'] for r in records} != {0, 1}):
         raise ValueError('Training requires unique sequences and both classes')

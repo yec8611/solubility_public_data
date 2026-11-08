@@ -105,3 +105,10 @@ def test_inner_selection_does_not_receive_holdout_labels():
     tr,va=inner_split(y[:48],g[:48],11);y[48:]=1-y[48:]
     tr2,va2=inner_split(y[:48],g[:48],11)
     assert np.array_equal(tr,tr2) and np.array_equal(va,va2)
+
+
+def test_numeric_group_zero_is_valid(tmp_path):
+    from solubility_public_data.data import read_records
+    rows=[dict(record_id='a',sequence='A'*20,insoluble=0,group_id=0,role='train'),dict(record_id='b',sequence='C'*20,insoluble=1,group_id=1,role='train')]
+    f=tmp_path/'records.json';f.write_text(json.dumps(rows))
+    assert read_records(f,training=True)[0]['group_id']==0

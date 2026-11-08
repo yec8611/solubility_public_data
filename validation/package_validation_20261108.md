@@ -2,7 +2,7 @@
 
 **Software validation only. These are not full-budget benchmark results or evidence of improved generalization.**
 
-- 13 automated tests passed: exact public parameter counts, both architectures and both profiles fitting/reloading, new feature IDs, padding invariance, unordered patch invariance, missing structures, training-only normalization, positive-class/cutoff semantics, five distinct holdouts, sequence alignment and family-leakage rejection.
+- 14 automated tests passed: exact public parameter counts, both architectures and both profiles fitting/reloading, new feature IDs, padding invariance, unordered patch invariance, missing structures, training-only normalization, positive-class/cutoff semantics, five distinct holdouts, sequence alignment and family-leakage rejection.
 - Four public XLSX files match every JSON record (2,320 total). All six delivered workbooks contain no formula/error cells; previews inspected. The independent reader is openpyxl/pandas; release authoring uses artifact-tool. Portable runtime exports use XlsxWriter.
 - All ten frozen PSI split specifications (five random, five grouped) pass membership/class/OOF checks; grouped family overlap is zero. PSI has zero retained sequence/family overlap with Garcia, NESG and eSOL.
 - All 202 descriptors were regenerated and compared with the original feature matrices. The release archive has SHA-256 checks for itself and each member; ESM encoder/revision, token precision and pooling policy are recorded.
