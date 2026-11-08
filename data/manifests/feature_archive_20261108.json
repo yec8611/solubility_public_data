@@ -1,0 +1,25 @@
+{
+  "created": "2026-11-08",
+  "n": 2320,
+  "url": "https://github.com/yec8611/solubility_public_data/releases/download/data-20261108/public_esm650_features_20261108.tar.gz",
+  "sha256": "79492bc28b56b28889a8675b8e325e7ec59c39110537e841d92a6dff1718ed57",
+  "bytes": 465315705,
+  "files": {
+    "DATA_LICENSES_20261108.md": {
+      "sha256": "78bc4b9b35e01547c108fe77dac6e5cc764ac30cdd5ee35a520a1c78e0c39d5d",
+      "bytes": 3490
+    },
+    "feature_metadata_20261108.json": {
+      "sha256": "75895cc7a70dd5114ff03c8a125cb8101c057b0c7e40ef484e089fecdbea21f2",
+      "bytes": 1122
+    },
+    "pooled_20261108.npz": {
+      "sha256": "22bac106bf0d19ce4cd003b6006f23214520908c79b93e725435157f6b737ed4",
+      "bytes": 22061370
+    },
+    "residues_20261108.npy": {
+      "sha256": "4881328e7f911f8851fcfad46183f66b260068206865beef3fecb0822a6bda88",
+      "bytes": 478543488
+    }
+  }
+}

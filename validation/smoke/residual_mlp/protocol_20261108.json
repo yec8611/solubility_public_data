@@ -1,0 +1,32 @@
+{
+  "created": "20261108",
+  "config": {
+    "architecture": "residual_mlp",
+    "profile": "public",
+    "max_epochs": 2,
+    "patience": 8,
+    "batch_size": 128,
+    "lr": 0.001,
+    "weight_decay": 0.01,
+    "gradient_clip": 5.0,
+    "rdrop_weight": 0.5,
+    "min_delta": 1e-05,
+    "validation_candidates": 100,
+    "num_threads": 2
+  },
+  "seeds": [
+    11,
+    29,
+    47,
+    71,
+    101
+  ],
+  "n": 128,
+  "n_insoluble": 64,
+  "n_groups": 128,
+  "positive_class": "insoluble",
+  "epochs_capped_for_smoke": true,
+  "records_sha256": "7570b163dc6475b2c18bc029527641155f43981ae3e6649ffacc151895095192",
+  "threshold_policy": "training OOF insoluble recall >= 0.9",
+  "external_used_for_selection": false
+}

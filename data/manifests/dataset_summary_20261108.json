@@ -1,0 +1,38 @@
+[
+  {
+    "dataset": "psi",
+    "n": 1686,
+    "insoluble": 368,
+    "soluble": 1318,
+    "unclassified": 0,
+    "groups": 737,
+    "role": "train"
+  },
+  {
+    "dataset": "garcia",
+    "n": 284,
+    "insoluble": 44,
+    "soluble": 240,
+    "unclassified": 0,
+    "groups": 128,
+    "role": "external"
+  },
+  {
+    "dataset": "nesg",
+    "n": 152,
+    "insoluble": 32,
+    "soluble": 120,
+    "unclassified": 0,
+    "groups": 144,
+    "role": "external"
+  },
+  {
+    "dataset": "esol",
+    "n": 198,
+    "insoluble": 24,
+    "soluble": 127,
+    "unclassified": 47,
+    "groups": 185,
+    "role": "external"
+  }
+]
